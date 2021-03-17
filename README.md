@@ -7,6 +7,7 @@ A curated list of awesome serverless research works, including papers and open-s
 - [Serverless System and Framework](#serverless-system-and-framework)
 - [Optimizations](#optimizations)
 - [Benchmarking](#benchmarking)
+- [Reliability and Fault Tolerance](#reliability-and-fault-tolerance)
 - [Security](#security)
 - [Other Related Works](#other-related-works)
 - [Other Recommended Lists](#other-recommended-lists)
@@ -38,6 +39,13 @@ A curated list of awesome serverless research works, including papers and open-s
 - [Characterizing Serverless Platforms with ServerlessBench (SOCC'20)](https://dl.acm.org/doi/10.1145/3419111.3421280)
 - Benchmarking, Analysis, and Optimization of Serverless Function Snapshots (ASPLOS'21)
 
+
+## Reliability and Fault Tolerance
+- [Fault-tolerant and transactional stateful serverless workflows (OSDI'20)](https://www.usenix.org/conference/osdi20/presentation/zhang-haoran)
+  - The paper presents Beldi, a library and runtime system for writing fault-tolerant stateful serverless functions.
+  - Code available: [github](https://github.com/eniac/Beldi)
+- [A fault-tolerance shim for serverless computing (Eurosys'20)](https://dl.acm.org/doi/10.1145/3342195.3387535)
+  - The paper presents AFT, an atomic fault tolerance shim for serverless functions. AFT ensures atomic visibility of updates by enforcing read atomic isolation guarantee.
 
 ## Security
 - [Peeking Behind the Curtains of Serverless Platforms (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277369)
