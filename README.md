@@ -9,7 +9,7 @@ A curated list of awesome serverless research works, including papers and open-s
 - [Benchmarking](#benchmarking)
 - [Security](#security)
 - [Other Related Works](#other-related-works)
-- [Benchmarking](#benchmarking)
+- [Other Recommended Lists](#other-recommended-lists)
 
 ## Review
 - Serverless Computing: One Step Forward, Two Steps Back (CIDR‘19)
@@ -42,4 +42,8 @@ A curated list of awesome serverless research works, including papers and open-s
 
 ## Other Related Works
 - E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers (ATC'19)
+
+## Other Recommended Lists
+- [Awesome Serverless](https://github.com/anaibol/awesome-serverless) - A curated list of awesome services, solutions and resources for serverless / nobackend applications.
+- [awesome-serverless-security](https://github.com/puresec/awesome-serverless-security) - A curated list of awesome serverless security resources such as (e)books, articles, whitepapers, blogs and research papers.
 
