@@ -12,36 +12,36 @@ A curated list of awesome serverless research works, including papers and open-s
 - [Other Recommended Lists](#other-recommended-lists)
 
 ## Review
-- Serverless Computing: One Step Forward, Two Steps Back (CIDR‘19)
-- Cloud Programming Simplified: A Berkeley View onServerless Computing (Technique Report 2019)
+- [Serverless Computing: One Step Forward, Two Steps Back (CIDR‘19)](http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf)
+- [Cloud Programming Simplified: A Berkeley View onServerless Computing (Technique Report 2019)](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf)
 
 ## Serverless System and Framework
-- (Storage system) Understanding Ephemeral Storage for Serverless Analytics （ATC'18)
-- (Storage system) Pocket: Elastic Ephemeral Storage for Serverless Analytics (OSDI'18)
-- (Scheduling/Complier) From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers (ATC'19)
-- (Runtime) Firecracker: Lightweight Virtualization for Serverless Applications (NSDI'20)
-- (Framework) Nightcore: Efficient and Scalable Serverless Computing for Latency-Sensitive, Interactive Microservices (ASPLOS'21)
+- (Storage system) [Understanding Ephemeral Storage for Serverless Analytics （ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277431)
+- (Storage system) [Pocket: Elastic Ephemeral Storage for Serverless Analytics (OSDI'18)](https://dl.acm.org/doi/10.5555/3291168.3291200)
+- (Scheduling/Complier) [From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers (ATC'19)](https://dl.acm.org/doi/10.5555/3358807.3358848)
+- (Runtime) [Firecracker: Lightweight Virtualization for Serverless Applications (NSDI'20)](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf)
+- (Framework) [Nightcore: Efficient and Scalable Serverless Computing for Latency-Sensitive, Interactive Microservices (ASPLOS'21)](https://www.cs.utexas.edu/~zjia/asplos21main-p89-final.pdf)
 
 ## Optimizations
-- SOCK: Rapid Task Provisioning with Serverless-Optimized Containers (ATC'18)
-- SAND: Towards High-Performance Serverless Computing (ATC'18)
-- Catalyzer: Sub-millisecond Startup for ServerlessComputing with Initialization-less Booting (ASPLOS'20)
-- Replayable Execution Optimized for Page Sharing for a Managed Runtime Environment (Eurosys'19)
+- [SOCK: Rapid Task Provisioning with Serverless-Optimized Containers (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277362)
+- [SAND: Towards High-Performance Serverless Computing (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277444)
+- [Catalyzer: Sub-millisecond Startup for ServerlessComputing with Initialization-less Booting (ASPLOS'20)](https://dl.acm.org/doi/10.1145/3373376.3378512)
+- [Replayable Execution Optimized for Page Sharing for a Managed Runtime Environment (Eurosys'19)](https://dl.acm.org/doi/abs/10.1145/3302424.3303978)
 
 
 ## Benchmarking
-- Architectural Implications of Function-as-a-Service Computing (Micro'19)
-- Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider (ATC'20)
-- Characterizing Serverless Platforms with ServerlessBench (SOCC'20)
+- [Architectural Implications of Function-as-a-Service Computing (Micro'19)](https://dl.acm.org/doi/10.1145/3352460.3358296)
+- [Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider (ATC'20)](https://www.usenix.org/conference/atc20/presentation/shahrad)
+- [Characterizing Serverless Platforms with ServerlessBench (SOCC'20)](https://dl.acm.org/doi/10.1145/3419111.3421280)
 - Benchmarking, Analysis, and Optimization of Serverless Function Snapshots (ASPLOS'21)
 
 
 ## Security
-- Peeking Behind the Curtains of Serverless Platforms (ATC'18)
+- [Peeking Behind the Curtains of Serverless Platforms (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277369)
 
 
 ## Other Related Works
-- E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers (ATC'19)
+- [E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers (ATC'19)](https://dl.acm.org/doi/10.5555/3358807.3358839)
 
 ## Other Recommended Lists
 - [Awesome Serverless](https://github.com/anaibol/awesome-serverless) - A curated list of awesome services, solutions and resources for serverless / nobackend applications.
