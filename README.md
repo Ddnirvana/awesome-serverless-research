@@ -9,6 +9,7 @@ A curated list of awesome serverless research works, including papers and open-s
 - [Benchmarking](#benchmarking)
 - [Reliability and Fault Tolerance](#reliability-and-fault-tolerance)
 - [Security](#security)
+- [Architecture Supports](#architecture-supports)
 - [Other Related Works](#other-related-works)
 - [Other Recommended Lists](#other-recommended-lists)
 
@@ -50,6 +51,8 @@ A curated list of awesome serverless research works, including papers and open-s
 ## Security
 - [Peeking Behind the Curtains of Serverless Platforms (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277369)
 
+## Architecture Supports
+- PIE: Confidential Serverless Made Efficient with Plug-In Enclaves (ISCA'21) - The paper presents PIE, a hardware extension on SGX to boost startup latency of enclaves to support serverless computing.
 
 ## Other Related Works
 - [E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers (ATC'19)](https://dl.acm.org/doi/10.5555/3358807.3358839)
