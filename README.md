@@ -47,6 +47,7 @@ A curated list of awesome serverless research works, including papers and open-s
   - Code available: [github](https://github.com/eniac/Beldi)
 - [A fault-tolerance shim for serverless computing (Eurosys'20)](https://dl.acm.org/doi/10.1145/3342195.3387535)
   - The paper presents AFT, an atomic fault tolerance shim for serverless functions. AFT ensures atomic visibility of updates by enforcing read atomic isolation guarantee.
+- [Formal Foundations of Serverless Computing (OOPSLA'19)](https://dl.acm.org/doi/10.1145/3360575) - It is the best paper of OOPSLA'19, which presents formal model to analyze (and prove) the reliability of serverless computing.
 
 ## Security
 - [Peeking Behind the Curtains of Serverless Platforms (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277369)
