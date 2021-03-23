@@ -10,6 +10,7 @@ A curated list of awesome serverless research works, including papers and open-s
 - [Reliability and Fault Tolerance](#reliability-and-fault-tolerance)
 - [Security](#security)
 - [Architecture Supports](#architecture-supports)
+- [Programming Models](#programming-models)
 - [Other Related Works](#other-related-works)
 - [Other Recommended Lists](#other-recommended-lists)
 
@@ -55,6 +56,10 @@ A curated list of awesome serverless research works, including papers and open-s
 
 ## Architecture Supports
 - PIE: Confidential Serverless Made Efficient with Plug-In Enclaves (ISCA'21) - The paper presents PIE, a hardware extension on SGX to boost startup latency of enclaves to support serverless computing.
+
+## Programming Models
+- [Kappa: a programming framework for serverless computing](https://dl.acm.org/doi/abs/10.1145/3419111.3421277) - Kappa proposes a new programming model for serverless computing, which utilizes *checkpointing* to support long running services, and reuse python features to manage concurrency. It is open-sourced at [kappa](https://kappa.cs.berkeley.edu) and [github-repo](https://github.com/NetSys/kappa).
+
 
 ## Other Related Works
 - [E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers (ATC'19)](https://dl.acm.org/doi/10.5555/3358807.3358839)
