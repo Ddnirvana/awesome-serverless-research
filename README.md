@@ -23,9 +23,7 @@ A curated list of awesome serverless research works, including papers and open-s
 - (Storage system) [Pocket: Elastic Ephemeral Storage for Serverless Analytics (OSDI'18)](https://dl.acm.org/doi/10.5555/3291168.3291200)
 - (Scheduling/Complier) [From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers (ATC'19)](https://dl.acm.org/doi/10.5555/3358807.3358848)
 - (Runtime) [Firecracker: Lightweight Virtualization for Serverless Applications (NSDI'20)](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf)
-- (Runtime) [Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing (ATC'20)](https://www.usenix.org/conference/atc20/presentation/shillaker)
-  - Compared with other runtimes, Faasm utilizes WebAssembly for isolation, which achieves high performance.
-  - Code available: [github](https://github.com/faasm/faasm)
+- (Runtime) [Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing (ATC'20)](https://www.usenix.org/conference/atc20/presentation/shillaker) - Compared with other runtimes, Faasm utilizes WebAssembly for isolation, which achieves high performance. Code available at [github](https://github.com/faasm/faasm)
 - (Framework) [Nightcore: Efficient and Scalable Serverless Computing for Latency-Sensitive, Interactive Microservices (ASPLOS'21)](https://www.cs.utexas.edu/~zjia/asplos21main-p89-final.pdf)
 
 ## Optimizations
@@ -44,11 +42,8 @@ A curated list of awesome serverless research works, including papers and open-s
 
 
 ## Reliability and Fault Tolerance
-- [Fault-tolerant and transactional stateful serverless workflows (OSDI'20)](https://www.usenix.org/conference/osdi20/presentation/zhang-haoran)
-  - The paper presents Beldi, a library and runtime system for writing fault-tolerant stateful serverless functions.
-  - Code available: [github](https://github.com/eniac/Beldi)
-- [A fault-tolerance shim for serverless computing (Eurosys'20)](https://dl.acm.org/doi/10.1145/3342195.3387535)
-  - The paper presents AFT, an atomic fault tolerance shim for serverless functions. AFT ensures atomic visibility of updates by enforcing read atomic isolation guarantee.
+- [Fault-tolerant and transactional stateful serverless workflows (OSDI'20)](https://www.usenix.org/conference/osdi20/presentation/zhang-haoran) - The paper presents Beldi, a library and runtime system for writing fault-tolerant stateful serverless functions. Code available at [github](https://github.com/eniac/Beldi)
+- [A fault-tolerance shim for serverless computing (Eurosys'20)](https://dl.acm.org/doi/10.1145/3342195.3387535) - The paper presents AFT, an atomic fault tolerance shim for serverless functions. AFT ensures atomic visibility of updates by enforcing read atomic isolation guarantee.
 - [Formal Foundations of Serverless Computing (OOPSLA'19)](https://dl.acm.org/doi/10.1145/3360575) - It is the best paper of OOPSLA'19, which presents formal model to analyze (and prove) the reliability of serverless computing.
 
 ## Security
