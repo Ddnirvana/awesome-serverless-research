@@ -32,6 +32,7 @@ A curated list of awesome serverless research works, including papers and open-s
 - [Catalyzer: Sub-millisecond Startup for ServerlessComputing with Initialization-less Booting (ASPLOS'20)](https://dl.acm.org/doi/10.1145/3373376.3378512) - Catalyzer proposes init-less, which leverages fork/snapshots to skip the initialization costs during startup, and can achieve <1ms startup latency in the best case. The system is based on virtualization based sandboxes, gVisor.
 - [Replayable Execution Optimized for Page Sharing for a Managed Runtime Environment (Eurosys'19)](https://dl.acm.org/doi/abs/10.1145/3302424.3303978) - Replayable optimizes CRIU for docker containers to boost container startup latency and reduce memory costs.
 - [SEUSS: skip redundant paths to make serverless fast (Eurosys'20)](https://dl.acm.org/doi/abs/10.1145/3342195.3392698) - SEUSS utilizes similir ideas as Catalyzer and Replayable to boost serverless latency (especially for startup latency) using fork/snapshots. The system is based on unikernels.
+- [FaasCache: Keeping Serverless Computing Alive with Greedy-Dual Caching (ASPLOS'21)](http://homes.sice.indiana.edu/prateeks/papers/faascache-asplos21.pdf)
 
 
 ## Benchmarking
