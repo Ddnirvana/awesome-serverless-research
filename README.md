@@ -26,6 +26,7 @@ A curated list of awesome serverless research works, including papers and open-s
 - (Runtime) [Firecracker: Lightweight Virtualization for Serverless Applications (NSDI'20)](https://www.usenix.org/system/files/nsdi20-paper-agache.pdf)
 - (Runtime) [Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing (ATC'20)](https://www.usenix.org/conference/atc20/presentation/shillaker) - Compared with other runtimes, Faasm utilizes WebAssembly for isolation, which achieves high performance. Code available at [github](https://github.com/faasm/faasm)
 - (Framework) [Nightcore: Efficient and Scalable Serverless Computing for Latency-Sensitive, Interactive Microservices (ASPLOS'21)](https://www.cs.utexas.edu/~zjia/asplos21main-p89-final.pdf)
+- (Scheduling)[Sequoia: enabling quality-of-service in serverless computing(SOCC'20)](https://dl.acm.org/doi/10.1145/3419111.3421306) - Sequoia is a serverless scheduling and allocation framework, which aims to improve the management in serverless computing.
 
 ## Optimizations
 - [SOCK: Rapid Task Provisioning with Serverless-Optimized Containers (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277362)
