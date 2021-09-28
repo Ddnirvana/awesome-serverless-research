@@ -37,6 +37,7 @@ If you find some interesting work/projects missing in this list, please contact 
 - [Replayable Execution Optimized for Page Sharing for a Managed Runtime Environment (Eurosys'19)](https://dl.acm.org/doi/abs/10.1145/3302424.3303978) - Replayable optimizes CRIU for docker containers to boost container startup latency and reduce memory costs.
 - [SEUSS: skip redundant paths to make serverless fast (Eurosys'20)](https://dl.acm.org/doi/abs/10.1145/3342195.3392698) - SEUSS utilizes similir ideas as Catalyzer and Replayable to boost serverless latency (especially for startup latency) using fork/snapshots. The system is based on unikernels.
 - [FaasCache: Keeping Serverless Computing Alive with Greedy-Dual Caching (ASPLOS'21)](http://homes.sice.indiana.edu/prateeks/papers/faascache-asplos21.pdf)
+- [Faastlane: Accelerating Function-as-a-Service Workflows (ATC'21)](https://www.usenix.org/conference/atc21/presentation/kotni) - Faastlane aims to optimize the communication latency between functions, which is significant for function chain (or workflows in the title). The major idea is to use thread-level isolation, that means different functions are located in the same process, and Faastlane utilizes Intel MPK to provide isolation between different threads.
 
 
 ## Benchmarking
