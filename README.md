@@ -1,6 +1,8 @@
 # Awesome Serverless Research
 A curated list of awesome serverless research works, including papers and open-sourced projects.
 
+If you find some interesting work/projects missing in this list, please contact me through issues or email (dd_nirvana@sjtu.edu.cn) :)
+
 
 ## Contents
 - [Review](#review)
