@@ -49,9 +49,11 @@ There are many emerging works trying to introduce states to serverless computing
 
 ## Benchmarking
 - [Architectural Implications of Function-as-a-Service Computing (Micro'19)](https://dl.acm.org/doi/10.1145/3352460.3358296)
-- [Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider (ATC'20)](https://www.usenix.org/conference/atc20/presentation/shahrad)
-- [Characterizing Serverless Platforms with ServerlessBench (SOCC'20)](https://dl.acm.org/doi/10.1145/3419111.3421280)
-- Benchmarking, Analysis, and Optimization of Serverless Function Snapshots (ASPLOS'21)
+- [Serverless in the Wild: Characterizing and Optimizing the Serverless Workload at a Large Cloud Provider (ATC'20)](https://www.usenix.org/conference/atc20/presentation/shahrad) - SIW is an industry paper by Microsoft Azure. You can learn about real-world issues/techniques of serverless computing from it.
+- [Characterizing Serverless Platforms with ServerlessBench (SOCC'20)](https://dl.acm.org/doi/10.1145/3419111.3421280) - This paper presents ServerlessBench, which is the first and state-of-the-art serverless benchmarks. The benchmark suite is open-sourced at [github](https://github.com/SJTU-IPADS/ServerlessBench). The paper utilizes the benchmark suit to analyze several serverless platforms, including AWS lambda, OpenWhisk, Fn, and others, and proposes several new insights/implications that can lead future research works.
+- [Benchmarking, Analysis, and Optimization of Serverless Function Snapshots (ASPLOS'21)](https://dl.acm.org/doi/10.1145/3445814.3446714) - This work introduces  one system and one optimization. The system is vHive, an open-source and full-stack serverless framework. The framework is built based on several state-of-the-art infastructure, e.g., Firecracker. Besides, the paper proposes an optimization, called REAP, which is a software mechanism for serverless hosts that records functions' stable working set of guest memory pages and proactively prefetches it from disk into memory.
+
+
 
 
 ## Reliability and Fault Tolerance
