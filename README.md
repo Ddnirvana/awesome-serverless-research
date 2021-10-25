@@ -54,14 +54,13 @@ If you find some interesting work/projects missing in this list, please contact 
 
 ## Security
 - [Peeking Behind the Curtains of Serverless Platforms (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277369)
+- [PIE: Confidential Serverless Made Efficient with Plug-In Enclaves (ISCA'21)](https://ipads.se.sjtu.edu.cn/zh/publications/LiISCA21.pdf) - The paper presents PIE, a hardware extension on SGX to boost startup latency of enclaves to support serverless computing.
 
 
 ## Applications
 - [Shuffling, Fast and Slow: Scalable Analytics on Serverless Infrastructure (NSDI'19)](https://www.usenix.org/conference/nsdi19/presentation/pu) - This paper  presents Locus, a serverless analytics system combines cheap but slow storage with fast but expensive storage to balance performance and costs.
 - [Sprocket: A Serverless Video Processing Framework (SOCC'18)](https://dl.acm.org/doi/10.1145/3267809.3267815) - This paper presents Sprocket, a configurable, stage-based, scalable, serverless video processing framework that exploits intra-video parallelism to achieve low latency.
 
-## Architecture Supports
-- PIE: Confidential Serverless Made Efficient with Plug-In Enclaves (ISCA'21) - The paper presents PIE, a hardware extension on SGX to boost startup latency of enclaves to support serverless computing.
 
 ## Programming Models
 - [Kappa: a programming framework for serverless computing](https://dl.acm.org/doi/abs/10.1145/3419111.3421277) - Kappa proposes a new programming model for serverless computing, which utilizes *checkpointing* to support long running services, and reuse python features to manage concurrency. It is open-sourced at [kappa](https://kappa.cs.berkeley.edu) and [github-repo](https://github.com/NetSys/kappa).
