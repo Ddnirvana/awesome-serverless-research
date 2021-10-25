@@ -43,8 +43,8 @@ If you find some interesting work/projects missing in this list, please contact 
 
 There are many emerging works trying to introduce states to serverless computings --- therefore, we can have more applications like machine learning and data analysis on serverless.
 
-- [Boki: Stateful Serverless Computing with Shared Logs(SOSP'21)](https://www.cs.utexas.edu/~zjia/boki-sosp21.pdf) - Boki solves many problems on stateful serverless computing, including state consistency, fault tolerance, and high-level abstractions for stateful serverless applications. The major novelity is its shared log design. The system is open-sourced at [github](https://github.com/ut-osa/boki). And you can quickly learn the high-level ideas through its [SOSP video](https://www.youtube.com/watch?v=SgfLK1p3dx4).
-
+- [Boki: Stateful Serverless Computing with Shared Logs (SOSP'21)](https://www.cs.utexas.edu/~zjia/boki-sosp21.pdf) - Boki solves many problems on stateful serverless computing, including state consistency, fault tolerance, and high-level abstractions for stateful serverless applications. The major novelity is its shared log design. The system is open-sourced at [github](https://github.com/ut-osa/boki). And you can quickly learn the high-level ideas through its [SOSP video](https://www.youtube.com/watch?v=SgfLK1p3dx4).
+- [Cloudburst: stateful functions-as-a-service (VLDB'20)](https://dl.acm.org/doi/10.14778/3407790.3407836) -  The paper presents Cloudburst, a stateful FaaS platform that provides Python-like programming models. Cloudburst leverages Anna, a scalable key-value store, to achieve low-latency mutable state and communication.
 
 
 ## Benchmarking
