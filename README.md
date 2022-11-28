@@ -7,6 +7,7 @@ If you find some interesting work/projects missing in this list, please contact 
 ## Contents
 - [Review](#review)
 - [Serverless System and Framework](#serverless-system-and-framework)
+- [Heterogeneous Serverless](#heterogeneous-serverless)
 - [Optimizations](#optimizations)
 - [Stateful serverless computing](#stateful-serverless-computing)
 - [Benchmarking](#benchmarking)
@@ -29,6 +30,11 @@ If you find some interesting work/projects missing in this list, please contact 
 - (Runtime) [Faasm: Lightweight Isolation for Efficient Stateful Serverless Computing (ATC'20)](https://www.usenix.org/conference/atc20/presentation/shillaker) - Compared with other runtimes, Faasm utilizes WebAssembly for isolation, which achieves high performance. Code available at [github](https://github.com/faasm/faasm)
 - (Framework) [Nightcore: Efficient and Scalable Serverless Computing for Latency-Sensitive, Interactive Microservices (ASPLOS'21)](https://www.cs.utexas.edu/~zjia/asplos21main-p89-final.pdf)
 - (Scheduling)[Sequoia: enabling quality-of-service in serverless computing(SOCC'20)](https://dl.acm.org/doi/10.1145/3419111.3421306) - Sequoia is a serverless scheduling and allocation framework, which aims to improve the management in serverless computing.
+
+## Heterogeneous Serverless
+- [Serverless computing on heterogeneous computers (ASPLOS'22)](https://dl.acm.org/doi/10.1145/3503222.3507732) - The first work to propose heterogeneous serverless systems based on CPU, DPU and FPGA. Future works may follow the line to support GPU and many new accelerators for serverless.
+- [Llama: A Heterogeneous & Serverless Framework for Auto-Tuning Video Analytics Pipelines (ACM SoCC'21)](https://web.stanford.edu/~faromero/llama.pdf) - A system to schedule heterogeneous resources in the case of serverless.
+
 
 ## Optimizations
 - [SOCK: Rapid Task Provisioning with Serverless-Optimized Containers (ATC'18)](https://dl.acm.org/doi/10.5555/3277355.3277362)
